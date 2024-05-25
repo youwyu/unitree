@@ -1,0 +1,17 @@
+uint8[2] head
+uint8 levelFlag
+uint8 frameReserve
+
+uint32[2] SN
+uint32[2] version
+uint16 bandWidth
+IMU imu
+MotorState[20] motorState
+BmsState bms
+int16[4] footForce	
+int16[4] footForceEst	
+uint32 tick						
+WirelessRemote wirelessRemote 
+uint32 reserve
+
+uint32 crc
